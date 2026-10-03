@@ -1,0 +1,64 @@
+{
+  "beltCapacity": 5,
+  "slotCapacity": 5,
+  "levels": [
+    {
+      "name": "Speck",
+      "rows": ["RR"],
+      "shooters": [{"hue": "R", "ammo": 2}]
+    },
+    {
+      "name": "Neighbors",
+      "rows": ["RRGG"],
+      "shooters": [{"hue": "R", "ammo": 2}, {"hue": "G", "ammo": 2}]
+    },
+    {
+      "name": "Tower",
+      "rows": ["R", "R", "R"],
+      "shooters": [{"hue": "R", "ammo": 3}]
+    },
+    {
+      "name": "Bands",
+      "rows": ["YY", "YY", "BB", "BB"],
+      "shooters": [{"hue": "B", "ammo": 4}, {"hue": "Y", "ammo": 4}]
+    },
+    {
+      "name": "Ribbons",
+      "rows": ["OOO", "YYY", "GGG"],
+      "shooters": [{"hue": "G", "ammo": 3}, {"hue": "Y", "ammo": 3}, {"hue": "O", "ammo": 3}]
+    },
+    {
+      "name": "Twins",
+      "rows": ["RY", "RY", "RY"],
+      "shooters": [
+        {"hue": "R", "ammo": 2},
+        {"hue": "R", "ammo": 1},
+        {"hue": "Y", "ammo": 2},
+        {"hue": "Y", "ammo": 1}
+      ]
+    },
+    {
+      "name": "Window",
+      "rows": [".BB.", "ROOR", "ROOR", "YGGY"],
+      "shooters": [
+        {"hue": "Y", "ammo": 2},
+        {"hue": "G", "ammo": 2},
+        {"hue": "R", "ammo": 4},
+        {"hue": "O", "ammo": 4},
+        {"hue": "B", "ammo": 2}
+      ]
+    },
+    {
+      "name": "Six lanes",
+      "rows": ["ROYGBP", "ROYGBP"],
+      "shooters": [
+        {"hue": "R", "ammo": 2},
+        {"hue": "O", "ammo": 2},
+        {"hue": "Y", "ammo": 2},
+        {"hue": "G", "ammo": 2},
+        {"hue": "B", "ammo": 2},
+        {"hue": "P", "ammo": 2}
+      ]
+    }
+  ]
+}
